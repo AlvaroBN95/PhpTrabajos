@@ -93,7 +93,7 @@
     if (isset($_POST['eleccionJ'])) {
         $elecJ = $_POST['eleccionJ'];
 
-        $elecM = rand(0, count($elecciones));
+        $elecM = rand(0, count($elecciones)-1);
         $eleccion = $elecciones[$elecM];
 
 
